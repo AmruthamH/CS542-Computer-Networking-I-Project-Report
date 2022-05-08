@@ -8,3 +8,8 @@ In the python file we have both the sender and receiver which sends and receives
 In the terminal run the code using sudo python3 filename.py
 Two files will be created after successfully running the code which are reply.txt and request.txt.
 “request.txt” consists of the data part which is getting added into the packet, the length of the sending packet and the packet which is requested. “reply.txt” consists of length of the received file packet, address from which it received the packet, the packet which is received, The icmp header of the received packet and the icmp packet type.
+
+
+C Implementation:
+
+The C implementation can be done only on windows OS
